@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "net.frostytrix.illegalitems.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"AnvilScreenHandlerMixin",
+		"EnchantCommandMixin",
+		"EnchantmentMixin",
+		"ItemEnchantmentsComponentBuilderMixin",
+		"ItemEnchantmentsComponentMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

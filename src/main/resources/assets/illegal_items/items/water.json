@@ -1,0 +1,12 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "illegal_items:item/water",
+		"tints": [
+			{
+				"type": "minecraft:constant",
+				"value": 4159204
+			}
+		]
+	}
+}

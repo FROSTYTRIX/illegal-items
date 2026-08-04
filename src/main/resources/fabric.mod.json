@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "illegal_items",
+	"version": "${version}",
+	"name": "Illegal Items",
+	"description": "Brings Bedrock Edition's illegal and unobtainable content over to Java Edition: the command-only blocks that were never meant to be held, the items that never left the debug menu, and the entities that never made the jump between editions. Plus a handful of other oddities picked up along the way.",
+	"authors": [
+		"FROSTYTRIX"
+	],
+	"contact": {
+		"homepage": "https://github.com/FROSTYTRIX",
+		"sources": "https://github.com/FROSTYTRIX/illegal-items"
+	},
+	"license": "MIT",
+	"icon": "assets/illegal_items/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.frostytrix.illegalitems.IllegalItems"
+		],
+		"client": [
+          "net.frostytrix.illegalitems.IllegalItemsClient"
+		],
+		"fabric-datagen": [
+          "net.frostytrix.illegalitems.IllegalItemsDataGenerator"
+		]
+	},
+	"mixins": [
+		"illegal_items.mixins.json",
+		{
+			"config": "illegal_items.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
