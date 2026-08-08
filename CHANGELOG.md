@@ -6,8 +6,6 @@ can *mine out of the world* with a pickaxe that has no business existing. Plus
 the **full netherite building palette** vanilla never gave you, and a fix for
 Steves quietly vanishing.
 
----
-
 ## 🧾 Everything is obtainable now
 
 - **50 recipes, no creative required.** Nothing in the mod needs commands or the
