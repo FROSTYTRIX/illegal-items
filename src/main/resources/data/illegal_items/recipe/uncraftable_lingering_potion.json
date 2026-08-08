@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:glass_bottle",
+		"minecraft:fermented_spider_eye",
+		"minecraft:fermented_spider_eye",
+		"minecraft:gunpowder",
+		"minecraft:dragon_breath"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:lingering_potion"
+	}
+}

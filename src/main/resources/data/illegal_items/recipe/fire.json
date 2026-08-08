@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:fire_charge",
+		"minecraft:blaze_powder"
+	],
+	"result": {
+		"count": 1,
+		"id": "illegal_items:fire"
+	}
+}

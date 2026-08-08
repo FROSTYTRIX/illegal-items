@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"H": "minecraft:hay_block",
+		"G": "minecraft:glowstone"
+	},
+	"pattern": [
+		"HHH",
+		"GGG",
+		"HHH"
+	],
+	"result": {
+		"count": 1,
+		"id": "illegal_items:hay_respawn_anchor"
+	}
+}

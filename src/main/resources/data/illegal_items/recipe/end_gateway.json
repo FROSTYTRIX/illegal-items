@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"O": "minecraft:obsidian",
+		"B": "minecraft:dragon_breath"
+	},
+	"pattern": [
+		"OOO",
+		"OBO",
+		"OOO"
+	],
+	"result": {
+		"count": 1,
+		"id": "illegal_items:end_gateway"
+	}
+}

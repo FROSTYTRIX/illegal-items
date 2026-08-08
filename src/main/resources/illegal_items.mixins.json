@@ -4,10 +4,17 @@
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"AnvilScreenHandlerMixin",
+		"BorderMovementMixin",
+		"BossRidingMixin",
+		"BubbleColumnMixin",
+		"ConsumableComponentMixin",
 		"EnchantCommandMixin",
 		"EnchantmentMixin",
 		"ItemEnchantmentsComponentBuilderMixin",
-		"ItemEnchantmentsComponentMixin"
+		"ItemEnchantmentsComponentMixin",
+		"LivingEntityMixin",
+		"MinecartRidingMixin",
+		"PortalBreakingMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"O": "minecraft:obsidian",
+		"W": "minecraft:cobblestone_wall"
+	},
+	"pattern": [
+		"OOO",
+		"OWO",
+		"OOO"
+	],
+	"result": {
+		"count": 1,
+		"id": "illegal_items:border"
+	}
+}

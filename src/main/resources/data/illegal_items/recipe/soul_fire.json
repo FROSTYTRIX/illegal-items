@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"illegal_items:fire",
+		"minecraft:soul_sand"
+	],
+	"result": {
+		"count": 1,
+		"id": "illegal_items:soul_fire"
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"rolls": 1.0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "illegal_items:netherite_pressure_plate"
+				}
+			]
+		}
+	],
+	"random_sequence": "illegal_items:blocks/netherite_pressure_plate"
+}

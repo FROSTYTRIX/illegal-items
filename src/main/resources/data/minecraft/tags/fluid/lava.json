@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"illegal_items:still_lava",
+		"illegal_items:flowing_lava"
+	]
+}

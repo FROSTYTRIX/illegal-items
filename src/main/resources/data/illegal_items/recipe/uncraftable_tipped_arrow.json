@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"A": "minecraft:arrow",
+		"F": "minecraft:fermented_spider_eye"
+	},
+	"pattern": [
+		"AAA",
+		"AFA",
+		"AAA"
+	],
+	"result": {
+		"count": 8,
+		"id": "minecraft:tipped_arrow"
+	}
+}

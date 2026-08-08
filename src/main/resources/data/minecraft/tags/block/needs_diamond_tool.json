@@ -1,0 +1,14 @@
+{
+	"replace": false,
+	"values": [
+		"illegal_items:netherite_stairs",
+		"illegal_items:netherite_slab",
+		"illegal_items:netherite_wall",
+		"illegal_items:netherite_fence",
+		"illegal_items:netherite_fence_gate",
+		"illegal_items:netherite_trapdoor",
+		"illegal_items:netherite_pressure_plate",
+		"illegal_items:netherite_button",
+		"illegal_items:netherite_door"
+	]
+}

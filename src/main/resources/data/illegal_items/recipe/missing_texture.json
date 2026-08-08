@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"B": "minecraft:black_dye",
+		"M": "minecraft:magenta_dye"
+	},
+	"pattern": [
+		"BMB",
+		"MBM",
+		"BMB"
+	],
+	"result": {
+		"count": 1,
+		"id": "illegal_items:missing_texture"
+	}
+}

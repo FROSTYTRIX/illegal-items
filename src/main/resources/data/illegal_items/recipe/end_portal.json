@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"E": "minecraft:end_stone",
+		"S": "minecraft:ender_eye"
+	},
+	"pattern": [
+		"EEE",
+		"ESE",
+		"EEE"
+	],
+	"result": {
+		"count": 1,
+		"id": "illegal_items:end_portal"
+	}
+}

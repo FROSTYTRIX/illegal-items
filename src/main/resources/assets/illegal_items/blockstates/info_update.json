@@ -1,0 +1,5 @@
+{
+	"variants": {
+		"": { "model": "illegal_items:block/info_update" }
+	}
+}

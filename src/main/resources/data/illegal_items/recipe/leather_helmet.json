@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "equipment",
+	"ingredients": [
+		"minecraft:leather_helmet",
+		"illegal_items:missing_texture"
+	],
+	"result": {
+		"count": 1,
+		"id": "illegal_items:leather_helmet"
+	}
+}

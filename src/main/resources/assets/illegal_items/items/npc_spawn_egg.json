@@ -1,0 +1,6 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "illegal_items:item/npc_spawn_egg"
+	}
+}

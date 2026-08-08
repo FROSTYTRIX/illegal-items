@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:map",
+		"minecraft:glass_pane"
+	],
+	"result": {
+		"count": 1,
+		"id": "illegal_items:map"
+	}
+}

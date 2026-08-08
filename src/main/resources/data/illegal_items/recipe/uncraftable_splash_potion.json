@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:glass_bottle",
+		"minecraft:fermented_spider_eye",
+		"minecraft:fermented_spider_eye",
+		"minecraft:gunpowder"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:splash_potion"
+	}
+}

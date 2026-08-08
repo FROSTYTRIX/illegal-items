@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/cube_bottom_top",
+	"textures": {
+		"bottom": "illegal_items:block/hay_respawn_anchor_bottom",
+		"side": "illegal_items:block/hay_respawn_anchor_side4",
+		"top": "illegal_items:block/hay_respawn_anchor_top"
+	}
+}

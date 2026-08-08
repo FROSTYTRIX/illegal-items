@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "illegal_items:missing_texture"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "illegal_items:missing_texture"
+			}
+		]
+	}
+}

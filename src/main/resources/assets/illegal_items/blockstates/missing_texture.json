@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"": {
+			"model": "illegal_items:block/missing_texture"
+		}
+	}
+}

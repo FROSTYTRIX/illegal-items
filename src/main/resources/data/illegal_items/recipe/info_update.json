@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:dirt",
+		"minecraft:clock",
+		"minecraft:lime_dye"
+	],
+	"result": {
+		"count": 1,
+		"id": "illegal_items:info_update"
+	}
+}

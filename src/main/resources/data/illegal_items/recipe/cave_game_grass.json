@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:grass_block",
+		"minecraft:cobweb"
+	],
+	"result": {
+		"count": 1,
+		"id": "illegal_items:cave_game_grass"
+	}
+}

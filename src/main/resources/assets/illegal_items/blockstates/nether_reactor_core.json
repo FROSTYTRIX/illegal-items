@@ -1,0 +1,148 @@
+{
+	"variants": {
+		"countdown=0,phase=unused": {
+			"model": "illegal_items:block/nether_reactor_core_unused"
+		},
+		"countdown=1,phase=unused": {
+			"model": "illegal_items:block/nether_reactor_core_unused"
+		},
+		"countdown=2,phase=unused": {
+			"model": "illegal_items:block/nether_reactor_core_unused"
+		},
+		"countdown=3,phase=unused": {
+			"model": "illegal_items:block/nether_reactor_core_unused"
+		},
+		"countdown=4,phase=unused": {
+			"model": "illegal_items:block/nether_reactor_core_unused"
+		},
+		"countdown=5,phase=unused": {
+			"model": "illegal_items:block/nether_reactor_core_unused"
+		},
+		"countdown=6,phase=unused": {
+			"model": "illegal_items:block/nether_reactor_core_unused"
+		},
+		"countdown=7,phase=unused": {
+			"model": "illegal_items:block/nether_reactor_core_unused"
+		},
+		"countdown=8,phase=unused": {
+			"model": "illegal_items:block/nether_reactor_core_unused"
+		},
+		"countdown=9,phase=unused": {
+			"model": "illegal_items:block/nether_reactor_core_unused"
+		},
+		"countdown=10,phase=unused": {
+			"model": "illegal_items:block/nether_reactor_core_unused"
+		},
+		"countdown=11,phase=unused": {
+			"model": "illegal_items:block/nether_reactor_core_unused"
+		},
+		"countdown=12,phase=unused": {
+			"model": "illegal_items:block/nether_reactor_core_unused"
+		},
+		"countdown=13,phase=unused": {
+			"model": "illegal_items:block/nether_reactor_core_unused"
+		},
+		"countdown=14,phase=unused": {
+			"model": "illegal_items:block/nether_reactor_core_unused"
+		},
+		"countdown=15,phase=unused": {
+			"model": "illegal_items:block/nether_reactor_core_unused"
+		},
+		"countdown=0,phase=active": {
+			"model": "illegal_items:block/nether_reactor_core_active"
+		},
+		"countdown=1,phase=active": {
+			"model": "illegal_items:block/nether_reactor_core_active"
+		},
+		"countdown=2,phase=active": {
+			"model": "illegal_items:block/nether_reactor_core_active"
+		},
+		"countdown=3,phase=active": {
+			"model": "illegal_items:block/nether_reactor_core_active"
+		},
+		"countdown=4,phase=active": {
+			"model": "illegal_items:block/nether_reactor_core_active"
+		},
+		"countdown=5,phase=active": {
+			"model": "illegal_items:block/nether_reactor_core_active"
+		},
+		"countdown=6,phase=active": {
+			"model": "illegal_items:block/nether_reactor_core_active"
+		},
+		"countdown=7,phase=active": {
+			"model": "illegal_items:block/nether_reactor_core_active"
+		},
+		"countdown=8,phase=active": {
+			"model": "illegal_items:block/nether_reactor_core_active"
+		},
+		"countdown=9,phase=active": {
+			"model": "illegal_items:block/nether_reactor_core_active"
+		},
+		"countdown=10,phase=active": {
+			"model": "illegal_items:block/nether_reactor_core_active"
+		},
+		"countdown=11,phase=active": {
+			"model": "illegal_items:block/nether_reactor_core_active"
+		},
+		"countdown=12,phase=active": {
+			"model": "illegal_items:block/nether_reactor_core_active"
+		},
+		"countdown=13,phase=active": {
+			"model": "illegal_items:block/nether_reactor_core_active"
+		},
+		"countdown=14,phase=active": {
+			"model": "illegal_items:block/nether_reactor_core_active"
+		},
+		"countdown=15,phase=active": {
+			"model": "illegal_items:block/nether_reactor_core_active"
+		},
+		"countdown=0,phase=burnt_out": {
+			"model": "illegal_items:block/nether_reactor_core_burnt_out"
+		},
+		"countdown=1,phase=burnt_out": {
+			"model": "illegal_items:block/nether_reactor_core_burnt_out"
+		},
+		"countdown=2,phase=burnt_out": {
+			"model": "illegal_items:block/nether_reactor_core_burnt_out"
+		},
+		"countdown=3,phase=burnt_out": {
+			"model": "illegal_items:block/nether_reactor_core_burnt_out"
+		},
+		"countdown=4,phase=burnt_out": {
+			"model": "illegal_items:block/nether_reactor_core_burnt_out"
+		},
+		"countdown=5,phase=burnt_out": {
+			"model": "illegal_items:block/nether_reactor_core_burnt_out"
+		},
+		"countdown=6,phase=burnt_out": {
+			"model": "illegal_items:block/nether_reactor_core_burnt_out"
+		},
+		"countdown=7,phase=burnt_out": {
+			"model": "illegal_items:block/nether_reactor_core_burnt_out"
+		},
+		"countdown=8,phase=burnt_out": {
+			"model": "illegal_items:block/nether_reactor_core_burnt_out"
+		},
+		"countdown=9,phase=burnt_out": {
+			"model": "illegal_items:block/nether_reactor_core_burnt_out"
+		},
+		"countdown=10,phase=burnt_out": {
+			"model": "illegal_items:block/nether_reactor_core_burnt_out"
+		},
+		"countdown=11,phase=burnt_out": {
+			"model": "illegal_items:block/nether_reactor_core_burnt_out"
+		},
+		"countdown=12,phase=burnt_out": {
+			"model": "illegal_items:block/nether_reactor_core_burnt_out"
+		},
+		"countdown=13,phase=burnt_out": {
+			"model": "illegal_items:block/nether_reactor_core_burnt_out"
+		},
+		"countdown=14,phase=burnt_out": {
+			"model": "illegal_items:block/nether_reactor_core_burnt_out"
+		},
+		"countdown=15,phase=burnt_out": {
+			"model": "illegal_items:block/nether_reactor_core_burnt_out"
+		}
+	}
+}

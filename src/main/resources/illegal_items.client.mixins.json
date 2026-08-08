@@ -2,7 +2,12 @@
 	"required": true,
 	"package": "net.frostytrix.illegalitems.mixin.client",
 	"compatibilityLevel": "JAVA_21",
-	"client": [],
+	"client": [
+		"HeldItemRendererMixin",
+		"WolfCollarFeatureRendererMixin",
+		"WolfEntityRenderStateMixin",
+		"WolfEntityRendererMixin"
+	],
 	"injectors": {
 		"defaultRequire": 1
 	}
