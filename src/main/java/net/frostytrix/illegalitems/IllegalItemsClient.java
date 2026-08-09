@@ -1,6 +1,10 @@
 package net.frostytrix.illegalitems;
 
 import net.fabricmc.api.ClientModInitializer;
+import net.minecraft.client.render.model.BlockStateModel;
+import net.minecraft.block.BlockState;
+import net.frostytrix.illegalitems.client.MixedSlabModel;
+import net.fabricmc.fabric.api.client.model.loading.v1.ModelLoadingPlugin;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
@@ -50,6 +54,16 @@ public class IllegalItemsClient implements ClientModInitializer {
 		EntityModelLayerRegistry.registerModelLayer(NpcEntityRenderer.MODEL_LAYER,
 				NpcEntityModel::getTexturedModelData);
 		EntityRendererRegistry.register(ModEntities.NPC, NpcEntityRenderer::new);
+
+		// The mixed slab has no blockstate JSON; its model is supplied straight to the loader, and
+		// reads the two halves back out of the block entity when the chunk mesh is built.
+		ModelLoadingPlugin.register(plugin -> plugin.registerBlockStateResolver(ModBlocks.MIXED_SLAB, context -> {
+			BlockStateModel.UnbakedGrouped model = new MixedSlabModel.Unbaked().cached();
+
+			for (BlockState state : ModBlocks.MIXED_SLAB.getStateManager().getStates()) {
+				context.setModel(state, model);
+			}
+		}));
 
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WATER, RenderLayer.getTranslucent());
 		BlockRenderLayerMap.INSTANCE.putFluid(ModFluids.STILL_WATER, RenderLayer.getTranslucent());

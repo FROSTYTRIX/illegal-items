@@ -5,6 +5,7 @@ import java.util.function.Function;
 import net.frostytrix.illegalitems.IllegalItems;
 import net.frostytrix.illegalitems.block.BorderBlock;
 import net.frostytrix.illegalitems.block.HayRespawnAnchorBlock;
+import net.frostytrix.illegalitems.block.MixedSlabBlock;
 import net.frostytrix.illegalitems.block.NetherReactorCoreBlock;
 import net.frostytrix.illegalitems.block.StillFluidBlock;
 import net.minecraft.block.AbstractBlock;
@@ -78,6 +79,17 @@ public final class ModBlocks {
 			AbstractBlock.Settings.create()
 					.strength(1.0F)
 					.sounds(BlockSoundGroup.STONE));
+
+	/**
+	 * One block that is two different slabs. Registered without an item, because the only way to get
+	 * one is to put the second slab into an existing slab — see {@code SlabMerging}.
+	 */
+	public static final Block MIXED_SLAB = register("mixed_slab", MixedSlabBlock::new,
+			AbstractBlock.Settings.create()
+					.strength(2.0F, 6.0F)
+					.sounds(BlockSoundGroup.STONE)
+					.dropsNothing(),
+			false);
 
 	/** Grass and cobblestone as they looked back when this was still called Cave Game. */
 	public static final Block CAVE_GAME_GRASS = register("cave_game_grass",
